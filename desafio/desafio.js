@@ -50,16 +50,16 @@
 // }
 // parOuImpa(-20);
 // // Crie uma função que converta a temperatura de Celsius para Fahrenheit e vice-versa. Utilize uma variável para indicar a escala desejada e um bloco condicional para determinar qual conversão realizar
-function celsiusParaFahrenheit(valorTemperatura, grauTemperatura){
-    //Fórmula: (0 °C × 9/5) + 32 = 32 °F
-    if (grauTemperatura == "celsius"){
-        valorTemperatura = (valorTemperatura * 9/5) + 32;
-        console.log(`A conversão de celsius, para fahrenheit é: ${parseFloat(valorTemperatura).toFixed(2)}.`);
-    }else if(grauTemperatura == "fahrenheit"){
-        valorTemperatura = (valorTemperatura - 32) * 5/9;
-        console.log(`A conversão de fahrenheit, para celsius é: ${parseFloat(valorTemperatura).toFixed(2)}.`);
-    }else{
-        console.log("ERRO");
-    }
-}
-celsiusParaFahrenheit(1, "fahrenheit");
+// function celsiusParaFahrenheit(valorTemperatura, grauTemperatura){
+//     //Fórmula: (0 °C × 9/5) + 32 = 32 °F
+//     if (grauTemperatura == "celsius"){
+//         valorTemperatura = (valorTemperatura * 9/5) + 32;
+//         console.log(`A conversão de celsius, para fahrenheit é: ${parseFloat(valorTemperatura).toFixed(2)}.`);
+//     }else if(grauTemperatura == "fahrenheit"){
+//         valorTemperatura = (valorTemperatura - 32) * 5/9;
+//         console.log(`A conversão de fahrenheit, para celsius é: ${parseFloat(valorTemperatura).toFixed(2)}.`);
+//     }else{
+//         console.log("ERRO");
+//     }
+// }
+// celsiusParaFahrenheit(1, "fahrenheit");
