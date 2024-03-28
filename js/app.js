@@ -3,7 +3,7 @@ function botaoComprar(){
     let quantidade = parseInt(document.getElementById("qtd").value);
     let palavraIngressos = quantidade > 1 ? "ingressos" : "ingresso";
 
-    if(quantidade <=0 || document.getElementById("qtd").textContent == ""){
+    if(quantidade <=0){
         alert(`A quantidade adicionada no carrinho deve ser maior que zero. Insira um valor válido e tente novamente!`);
         return;
     }
